@@ -1,0 +1,39 @@
+<app-heaer></app-heaer>
+<div id="carouselExampleIndicators" class="container-fluid carousel slide p-0" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/images/img7.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/img7.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/img7.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h1>This is my first statement in Angular.</h1>
+<h1>{{title}}</h1>
+<h1>{{data}}</h1>
+<h1>{{30*20+20}}</h1>
+<h1>{{student[0]}}</h1>
+<h1>{{arena.arena1}} {{arena.arena2}}</h1>
+<button (click)="myEvent()">Click Event</button><br><br>
+<h1 (mouseover)="myEvent()">Mouse Over</h1>
+<h1 (mouseout)="myEvent()">Mouse Out</h1>
+<button (dblclick)="myFunction()">Display Message</button>
+<app-footer></app-footer>
